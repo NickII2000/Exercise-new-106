@@ -5,10 +5,10 @@ try {
     console.log('Normal');
     console.log(a);
     console.log('Result');
-} catch (e) {
+} catch (error) {
     console.log('Error');
     console.log('=======================');
-    console.log(e);
+    console.log(error);
     console.log('=======================');
 } finally {
     console.log('Final');
