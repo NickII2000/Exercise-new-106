@@ -20,8 +20,12 @@
 // console.log('Still normal');
 // console.log('\n!!!!!!!!!!!!!!!!!!!!!!!');
 
-document.querySelector('.active').addEventListener('click', () => {
-    console.log('click');
-});
+try {
+    document.querySelector('.active').addEventListener('click', () => {
+        console.log('click');
+    });
+} catch (e) {
+    console.log(e);
+}
 
 console.log('Normal');
