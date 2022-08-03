@@ -9,6 +9,9 @@ try {
     console.log('Error');
     console.log('=======================');
     console.log(error);
+    console.log(error.name);
+    console.log(error.message);
+    console.log(error.stack);
     console.log('=======================');
 } finally {
     console.log('Final');
